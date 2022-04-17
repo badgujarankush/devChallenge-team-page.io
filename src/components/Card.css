@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&family=Poppins:wght@600&display=swap");
+
+.Card {
+  width: 264px;
+  height: 383px;
+}
+.Card:nth-child(2){
+  margin-top: 100px;
+}
+
+.Card:nth-child(5){
+  margin-top: 100px;
+}
+img {
+  width: 238px;
+  height: 341px;
+}
+.header {
+  display: flex;
+}
+.designation {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #000000;
+  writing-mode: vertical-lr;
+}
+
+.name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  width: 117px;
+  height: 27px;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+@media (max-width: 700px) {
+
+  .Card {
+    width: 156px;
+    height: 237px;
+  }
+  img {
+    width: 139px;
+    height: 209px;
+  }
+  .designation{
+font-size: 10px;
+  }
+  .name{
+    font-size: 14px;
+  }
+  .Card:nth-child(even){
+    margin-top: 70px;
+  }
+  .Card:nth-child(5){
+    margin-top: 0px;
+  }
+}
